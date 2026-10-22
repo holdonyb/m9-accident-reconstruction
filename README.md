@@ -4,6 +4,8 @@
 
 ## 下载与观看
 
+- [B站完整影片](https://www.bilibili.com/video/BV1p9nC6mE12/)：已发布，五段播放器章节，复现提示词已置顶。
+- [直接下载视频](https://github.com/holdonyb/m9-accident-reconstruction/releases/download/v8.0.0/M9-analysis-full-video.mp4) · [下载完整工程](https://github.com/holdonyb/m9-accident-reconstruction/releases/download/v8.0.0/M9-Blender-MuJoCo-project.zip)。
 - 完整视频：`问界M9_路口重建与逐帧测速_B站发布版.mp4`。
 - 完整素材与工程：`问界M9_Blender与MuJoCo完整工程.zip`。下载入口在本仓库 Releases。
 - 十一种物理假设：`神木路口_原图环境与十一种物理假设.blend`，包含11个运动场景、卫星透视与360°定格。
