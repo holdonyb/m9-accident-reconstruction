@@ -35,13 +35,19 @@ def main():
             # uses another official Google API hostname because local proxy DNS
             # to the global hostname is intermittently failing.
             config='header = "Authorization: Bearer '+token+'"\nheader = "Content-Type: application/json"\n'
-            transport=['us-central1-aiplatform.googleapis.com','aiplatform.mtls.googleapis.com','us-east1-aiplatform.googleapis.com'][attempt%3]
+            transport=os.environ.get('M9_VERTEX_TRANSPORT') or ['us-central1-aiplatform.googleapis.com','aiplatform.mtls.googleapis.com','us-east1-aiplatform.googleapis.com'][attempt%3]
             cmd=['curl.exe','-sS','--connect-timeout','12','--max-time','150','--config','-','--connect-to',f'aiplatform.googleapis.com:443:{transport}:443','--data-binary','@'+str(payload),url]
             response=subprocess.run(cmd,input=config.encode(),capture_output=True,timeout=160)
-            if response.returncode:
+            if response.returncode and not response.stdout:
                 if attempt<5:time.sleep(2);continue
                 raise RuntimeError('Vertex network request failed: '+response.stderr.decode(errors='replace')[:160])
-            data=json.loads(response.stdout)
+            raw_response=response.stdout.decode('utf-8')
+            if 'automated queries' in raw_response or "We're sorry" in raw_response:raise RuntimeError('Vertex request protection; generation stopped')
+            try:data=json.loads(raw_response)
+            except json.JSONDecodeError:
+                if attempt<5:
+                    print(f'{scene}_{i:02}: incomplete network response; retrying',flush=True);time.sleep(3);continue
+                raise RuntimeError('Vertex returned an incomplete JSON response after bounded retries')
             code=data.get('error',{}).get('code',200)
             if code in (429,500,502,503) and attempt<5:
                 time.sleep(3+attempt*5);continue
@@ -61,7 +67,7 @@ def main():
             return f'{out.name}: {duration:.2f}s'
     # Probe first, then bounded concurrency for independent sentences.
     print(generate(jobs[0]),flush=True)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=int(os.environ.get('M9_TTS_WORKERS','2'))) as pool:
         for result in pool.map(generate,jobs[1:]):print(result,flush=True)
 
 if __name__=='__main__':main()

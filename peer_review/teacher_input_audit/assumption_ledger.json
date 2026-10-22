@@ -1,0 +1,164 @@
+{
+  "scope": "Audit of author inputs and visible evidence; no independently established actual vehicle speed.",
+  "source": "https://www.bilibili.com/video/BV1U9nB6GEwD/",
+  "source_sha256": "04787145b4c9044b7fa7ecb12f0fb3bbc9e479a76ba90724b8047b18fe874432",
+  "local_phone_video_sha256": "f36d8fbe9bf5c19800a28378cdd5bfe4c94ac7c28ef986e1c9e9bef8724e358e",
+  "assumptions": [
+    {
+      "input": "每秒30帧",
+      "status": "整体计时基本支持，逐帧曝光仍需核验",
+      "evidence": "本地文件13、14、15、16秒首次清晰出现于308、339、368、398帧，间隔31、29、30。三秒90个文件帧间隔支持整体接近一倍速。单个手机帧可叠有不同监控时刻的车辆位置。"
+    },
+    {
+      "input": "第53到第61帧",
+      "status": "起点展示存在一帧歧义",
+      "evidence": "作者44秒的“53”和45秒的“54”均最佳匹配本地339；57→342，61→346，后续大体保持+285偏移。可能是讲解画面与编号的同步问题。应找回真正53对应画面后核定两个取点时刻；不能据此把实际耗时武断改成7/30秒。"
+    },
+    {
+      "input": "第61帧已车尾过停止线",
+      "status": "与展示画面的地面事件不一致",
+      "evidence": "47秒画面圈选上层车灯，匹配本地346。两侧可见停止线延伸至灯中心横坐标处，约y=490；车尾可见下缘仍在近侧。灯带在图上过线不能证明车尾地面位置过线。该帧有两组灯带和号牌，须明确选取哪一次曝光。"
+    },
+    {
+      "input": "5.5米来自独立测量",
+      "status": "没有建立",
+      "evidence": "作者将箭头取3米后反投影得到该数值；公开影片未提供可复算的地面控制点、H矩阵、车身高度修正及逐帧点表。影片中的标尺及过线事件需先校验，5.5米当前只能作为作者模型输入。"
+    },
+    {
+      "input": "箭头必定3米",
+      "status": "排他选择依据不足",
+      "evidence": "原片35秒因6米得到约1.7g，转而选3米。减速度依赖同一套时空标定，可能偏差来源不只箭头长度；若包含路缘冲击，也不能把全段作用力都当作纯轮胎制动。当地其他道路3米设计可查到，只能证明3米存在，不能证明本路口就是3米。"
+    },
+    {
+      "input": "车道宽3.7米",
+      "status": "标线尺寸假设，非现场复测",
+      "evidence": "原片以条宽45厘米、间隔60厘米、约3.5组推得3.7米。须核对本地施划尺寸、组数边界和斜向截线；“落在常见车道宽度范围”不是第二次独立测量。"
+    },
+    {
+      "input": "展示网格已经验证",
+      "status": "仅完成条件诊断",
+      "evidence": "以可见网格反检近车道边线，在假定两边线平行时出现约72像素消失线偏差。但路口车道可能渐变宽，卫星分辨率未能排除；因此不把这一差异单独当成5.5米错误的证据。坐标及扰动计算保留供复核。"
+    },
+    {
+      "input": "车灯可直接用地面标尺",
+      "status": "需要高度与同一部位校正",
+      "evidence": "平地固定相机、同高度h的点直接套地面H，位移通常被放大H/(H-h)，H为相机高度。误差方向不能随意说成压低速度。车身转动时还要统一尾灯、车尾或车体中心的定义。"
+    },
+    {
+      "input": "8帧时间误差±1帧，综合约±10%",
+      "status": "误差范围缺少支持",
+      "evidence": "保持作者5.5米不变，7/30、8/30、9/30秒分别得到84.86、74.25、66.00 km/h。仅这项时间扰动相对基准就是+14.29%、−11.11%；尚未加入尺度和取点误差。原片88秒同时列出帧时间±1帧及教学估算±10%。"
+    },
+    {
+      "input": "74是入画瞬时速度",
+      "status": "均速被用于初速结论",
+      "evidence": "5.5/(8/30)×3.6给出该段平均速度；持续减速时入段速度更高。这是后续问题，不能替代对5.5米、时刻和轨迹的上游检验。"
+    },
+    {
+      "input": "21.2米是停止线到碰撞点",
+      "status": "未通过端点一致性复核",
+      "evidence": "14.7+6.5=21.2仅复现作者两段长度。既有百度候选入口至对侧路缘约56米，但起止地标与车辆同一点需对应；不可把56直接塞进作者时间就宣布新实测速度。"
+    },
+    {
+      "input": "撞前20多已逐帧测得",
+      "status": "公开证据未给出充分支持",
+      "evidence": "末段6.5米/23帧首先给出平均30.52 km/h，20多依赖末段位移、减速拟合和碰撞事件定义。公开影片未给出最后0.2秒逐帧坐标与时间表。0.8g曲线数学上能生成20多，但不能反过来证明距离与制动条件正确。"
+    },
+    {
+      "input": "我们旧模型可用来排除74",
+      "status": "不能作为独立真值",
+      "evidence": "旧模型依赖2.70米候选车顶尺度和既定相机参数，已记录大幅尺度敏感性。此次不以旧135或厂家139作为拟合目标，不用固定模型的残差直接断言所有低速方案都不可能。"
+    }
+  ],
+  "frame_matches": [
+    {
+      "label": "author53",
+      "author_second": 44,
+      "local_frame": 339,
+      "score": 0.2572279137319137,
+      "runner_up_frame": 338,
+      "runner_up_score": 0.8175547259957706
+    },
+    {
+      "label": "author54",
+      "author_second": 45,
+      "local_frame": 339,
+      "score": 0.2601803587115633,
+      "runner_up_frame": 338,
+      "runner_up_score": 0.7824600024920185
+    },
+    {
+      "label": "author57",
+      "author_second": 46,
+      "local_frame": 342,
+      "score": 0.09345450626442846,
+      "runner_up_frame": 343,
+      "runner_up_score": 0.6709373731308189
+    },
+    {
+      "label": "author61",
+      "author_second": 47,
+      "local_frame": 346,
+      "score": 0.12093602040852737,
+      "runner_up_frame": 347,
+      "runner_up_score": 0.6681621981759298
+    },
+    {
+      "label": "author69",
+      "author_second": 59,
+      "local_frame": 354,
+      "score": 0.21906727222914524,
+      "runner_up_frame": 355,
+      "runner_up_score": 0.2681243356473944
+    },
+    {
+      "label": "author88",
+      "author_second": 62,
+      "local_frame": 373,
+      "score": 0.26845817123865634,
+      "runner_up_frame": 374,
+      "runner_up_score": 0.2794407354159158
+    },
+    {
+      "label": "author102",
+      "author_second": 67,
+      "local_frame": 387,
+      "score": 0.2035724076902868,
+      "runner_up_frame": 388,
+      "runner_up_score": 0.39378509367557624
+    },
+    {
+      "label": "author111",
+      "author_second": 72,
+      "local_frame": 396,
+      "score": 0.634647853096636,
+      "runner_up_frame": 397,
+      "runner_up_score": 0.6386087615470203
+    }
+  ],
+  "timing_sensitivity": [
+    {
+      "frame_intervals": 7,
+      "seconds": 0.23333333333333334,
+      "distance_assumption_m": 5.5,
+      "conditional_kmh": 84.85714285714285,
+      "relative_change_percent": 14.28571428571428
+    },
+    {
+      "frame_intervals": 8,
+      "seconds": 0.26666666666666666,
+      "distance_assumption_m": 5.5,
+      "conditional_kmh": 74.25,
+      "relative_change_percent": 0.0
+    },
+    {
+      "frame_intervals": 9,
+      "seconds": 0.3,
+      "distance_assumption_m": 5.5,
+      "conditional_kmh": 66.00000000000001,
+      "relative_change_percent": -11.111111111111116
+    }
+  ],
+  "review_status": "New image-assisted Vertex Argon request failed with Google Sorry response; no successful new audit review. Previous script review does not cover these findings.",
+  "publication_status": "Hold replacement film until source-event/distance audit and revised narration are complete; existing public uploads unchanged."
+}

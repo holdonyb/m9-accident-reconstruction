@@ -4,7 +4,9 @@
 
 ## 下载与观看
 
-- [新增独立视频《问界M9到底多快？74还是135：逐帧复核4条视频》](https://www.bilibili.com/video/BV1P7nm6fEUH/)：06:10，方法、原作者时间位置、逐项复算与复现提示词见 [peer_review](peer_review/README.md)。
+- [主片更新《都是逐帧算的，怎么差了一倍？问界M9神木事故测速复核》](https://www.bilibili.com/video/BV1P7nm6fEUH/)：09:24，14章；逐项复核8帧、5.5米、过线位置、卫星21.2米、透视、重复帧与六组连续速度回放。方法与证据见 [peer_review](peer_review/README.md)。
+- [独立答疑篇《Astra答B友问》资料](qa_episode/README.md)：07:40，10章，围绕23条匿名真实问题检查时间、尺度、刹车和两次接触。
+- [v8.2.0：两期成片与工程补充包](https://github.com/holdonyb/m9-accident-reconstruction/releases/tag/v8.2.0) · [完整复现提示词](REPRODUCE_V82.md)。补充包依次覆盖到v8.0.0、v8.1.0工程上。优先使用本版文案、证据和计算，历史成片保留作版本记录。
 - [原片新增 P2：十一组仿真对比](https://www.bilibili.com/video/BV1p9nC6mE12/?p=2)，04:28。
 - [v8.1.0 补充工程与新影片](https://github.com/holdonyb/m9-accident-reconstruction/releases/tag/v8.1.0)：补充包解压到 v8.0.0 工程根目录，含三种末速 Blender 控制实验、19段男声、原帧时钟证据与全部合成代码。
 - [B站完整影片](https://www.bilibili.com/video/BV1p9nC6mE12/)：已发布，五段播放器章节，复现提示词已置顶。

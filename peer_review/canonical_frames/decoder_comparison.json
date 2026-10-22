@@ -1,0 +1,76 @@
+[
+  {
+    "frame": 68,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 106,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 107,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 108,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 128,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 157,
+    "ffmpeg_vs_opencv_mae": 0.0
+  },
+  {
+    "frame": 308,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.3035203269675926
+  },
+  {
+    "frame": 339,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.292341579861111
+  },
+  {
+    "frame": 340,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.3134071180555555
+  },
+  {
+    "frame": 346,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.2871245659722221
+  },
+  {
+    "frame": 347,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.2935337094907406
+  },
+  {
+    "frame": 350,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.3015227141203705
+  },
+  {
+    "frame": 357,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.3054029224537036
+  },
+  {
+    "frame": 362,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.2999139178240742
+  },
+  {
+    "frame": 368,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.2987076822916668
+  },
+  {
+    "frame": 398,
+    "ffmpeg_vs_opencv_mae": 0.0,
+    "raw_jpeg_vs_opencv_mae": 1.301703197337963
+  }
+]

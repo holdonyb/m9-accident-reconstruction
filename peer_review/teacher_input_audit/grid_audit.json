@@ -1,0 +1,109 @@
+{
+  "author_second": 42,
+  "raw_frame": 320,
+  "registration_inliers": 66,
+  "image_registration": [
+    [
+      0.7694391296564398,
+      0.0005720510760220936,
+      -325.879086385698
+    ],
+    [
+      0.0008326334396806887,
+      0.7342467105449579,
+      -21.713662641315917
+    ],
+    [
+      5.990335961582068e-06,
+      -1.2266713330761713e-06,
+      1.0
+    ]
+  ],
+  "grid_crossings_px": [
+    [
+      179.0,
+      229.0
+    ],
+    [
+      378.0,
+      245.0
+    ],
+    [
+      487.0,
+      414.0
+    ],
+    [
+      166.0,
+      388.0
+    ]
+  ],
+  "road_lane_samples_raw_px": [
+    [
+      [
+        551.0,
+        705.0
+      ],
+      [
+        606.0,
+        483.0
+      ]
+    ],
+    [
+      [
+        931.0,
+        705.0
+      ],
+      [
+        853.0,
+        493.0
+      ]
+    ]
+  ],
+  "road_lane_samples_author_px": [
+    [
+      [
+        98.24585575164622,
+        495.18284737200025
+      ],
+      [
+        140.2512909316374,
+        332.4222880836638
+      ]
+    ],
+    [
+      [
+        389.03881084681933,
+        494.3758523855379
+      ],
+      [
+        329.2512330817399,
+        339.450972766532
+      ]
+    ]
+  ],
+  "grid_forward_vanishing_px": [
+    200.22752380371094,
+    -30.628890991210938
+  ],
+  "grid_transverse_vanishing_px": [
+    -268874.25,
+    -21403.421875
+  ],
+  "road_lane_vanishing_px": [
+    214.90610475817238,
+    43.15354940954587
+  ],
+  "grid_horizon_line": [
+    0.07918137311935425,
+    -0.9968602061271667,
+    -46.38701248168945
+  ],
+  "road_vanishing_to_grid_horizon_px": 72.38850817472435,
+  "manual_jitter_sensitivity_p5_p50_p95_px": [
+    45.219818206914724,
+    72.63915579265961,
+    97.83103390827984
+  ],
+  "scope": "Visible overlay consistency test; assumes near lane edges are parallel on a locally planar road. 卤2 px grid / 卤4 px raw road endpoint jitter is an illustrative annotation sensitivity test, not a statistical confidence interval. Does not identify actual distance or speed; an unpublished different calibration remains untested.",
+  "interpretation": "Diagnostic discrepancy conditional on parallel lane edges. Road taper/flaring must be independently checked. Do not present as proven camera-calibration error or proof that 5.5 m is false."
+}

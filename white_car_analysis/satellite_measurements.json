@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-22",
+  "provider": "Baidu Maps native distance tool, satellite mode",
+  "url": "https://map.baidu.com/@12298952.272034833,4678372.482926422,20.66z/maptype%3DB_EARTH_MAP",
+  "screenshot_size_px": [1707, 932],
+  "screenshot": "satellite_measurements_55m_5m.png",
+  "measurements": [
+    {"id":"NW_crosswalk", "points_px":[[586,397],[624,420]], "displayed_m":5},
+    {"id":"SE_crosswalk", "points_px":[[936,645],[974,663]], "displayed_m":5},
+    {"id":"across_junction_selected_polyline", "points_px":[[580,435],[775,535],[976,642]], "displayed_m":55, "intermediate_displayed_m":27}
+  ],
+  "interpretation": "Hand-selected ground features on blurry satellite imagery. Native map labels round to whole metres. The 55 m polyline is a mapped baseline between crosswalk areas, not an observed white-car trajectory or a confirmed video time interval.",
+  "speed_status": "unresolved: full baseline endpoints have not both been matched to vehicle crossing times; short-window source video contains repeated images",
+  "previous_45_kmh_status": "withdrawn as an estimate of actual white-car speed; historical conditional model calculation only"
+}

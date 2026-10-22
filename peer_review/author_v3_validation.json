@@ -1,0 +1,55 @@
+{
+  "scenes": [
+    {
+      "scene": "作者条件_teacher_1",
+      "samples": 51,
+      "duration_s": 1.6666666666666667,
+      "distance_m": 21.2,
+      "end_kmh": 21.99999999999996,
+      "one_visible_vehicle": true
+    },
+    {
+      "scene": "作者条件_teacher_1.5",
+      "samples": 51,
+      "duration_s": 1.6666666666666667,
+      "distance_m": 31.799999999999997,
+      "end_kmh": 32.99999999999994,
+      "one_visible_vehicle": true
+    },
+    {
+      "scene": "作者条件_teacher_2",
+      "samples": 51,
+      "duration_s": 1.6666666666666667,
+      "distance_m": 42.4,
+      "end_kmh": 43.99999999999992,
+      "one_visible_vehicle": true
+    },
+    {
+      "scene": "作者条件_bird_0.5",
+      "samples": 51,
+      "duration_s": 1.4932885906040267,
+      "distance_m": 52.2,
+      "end_kmh": 113.03331634115077,
+      "one_visible_vehicle": true
+    },
+    {
+      "scene": "作者条件_bird_0.65",
+      "samples": 51,
+      "duration_s": 1.4932885906040267,
+      "distance_m": 52.199999999999996,
+      "end_kmh": 109.1903943895634,
+      "one_visible_vehicle": true
+    },
+    {
+      "scene": "作者条件_bird_0.8",
+      "samples": 51,
+      "duration_s": 1.4932885906040267,
+      "distance_m": 52.2,
+      "end_kmh": 105.34747243797604,
+      "one_visible_vehicle": true
+    }
+  ],
+  "packed_images": true,
+  "anchor_frame": 346,
+  "scope": "Baked coordinates and timestamps match specified equations. Camera metric scale remains conditional."
+}

@@ -1,0 +1,16 @@
+{
+  "review": "argon_review.json",
+  "accepted": [
+    "State model conditions directly.",
+    "Explain duplicate-frame deletion bias.",
+    "Include sustained <0.5km/h stopping threshold."
+  ],
+  "manual_corrections": [
+    "Clock is at upper right, not upper left.",
+    "The start-line comment responds to another viewer, not another video author.",
+    "3.75m is an assumed lane width, not a verified local standard.",
+    "Narration keeps sensible rounding; full precision is in evidence.json.",
+    "Retain original question about fire/escape without substituting door claims."
+  ],
+  "script_sha256": "0f37ab634394ff3b963aab05dd526262b96a9c03d6e1189b2ee5a2eb3aacad81"
+}

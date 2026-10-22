@@ -1,0 +1,236 @@
+[
+  {
+    "index": 1,
+    "text": "你起点都过了斑马线了，时间会对吗[吃瓜]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "critique_of_another_viewer_estimate",
+    "topic_ids": [
+      "start_end"
+    ]
+  },
+  {
+    "index": 2,
+    "text": "但按照距离计算又没错喔……[笑哭]开始我都觉得有问题，直至我用卫星地图根据8车道3.75*8=30米在地图上量，大概停止线到撞击真的差点两倍，但我觉得应该是按照2秒车头开始算的，不应该按照车尾帧数开始算[辣眼睛]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "alternative_measurement_in_viewer_thread",
+    "topic_ids": [
+      "start_end",
+      "scale"
+    ]
+  },
+  {
+    "index": 3,
+    "text": "补充一条 忘记上刹车灯图 刹车灯是过了斑马线就亮了 总共1.5s左右撞上  按官方刹车距离推算 大概会跑出43米 跟地图上标出的距离大差不差   另外就是没上当地事故后 红绿灯的图 没有变形    我是不信是110撞上了 所以不认同up重建用的刹车时间参数  不是不认同他重建 \n至于谁准 只能看鸿蒙最后敢不敢把所有数据拿出来了 大家都是推算 你们一个个激动个毛呢？",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "explicit_objection_to_uploader_parameters",
+    "topic_ids": [
+      "start_end",
+      "braking"
+    ]
+  },
+  {
+    "index": 4,
+    "text": "这十米测的，你把车放在十米间距，看看有那么长吗？还是问界车有10m长了？",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_video_scale_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 5,
+    "text": "知道10m的斑马线有多宽么？  你去路上实测几个来给大家开开眼，看看是不是6m都算长的了",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_video_scale_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 6,
+    "text": "近处的这个10米我更绷不住",
+    "video": "BV1p9nC6mE12",
+    "kind": "danmaku",
+    "context": "part_specific_scale_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 7,
+    "text": "杨业大街这个32米我有点绷不住",
+    "video": "BV1p9nC6mE12",
+    "kind": "danmaku",
+    "context": "part_specific_scale_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 8,
+    "text": "不是，这么简单的事，你用osm数据啊，你自己建的道口不准啊",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_model_geometry_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 9,
+    "text": "你跑模型不看俯视图用广角摄像头跑，远端透视压缩都不知道？看下卫星图量距离有那么难吗",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_projection_method_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 10,
+    "text": "你们这些算尺度的时候都不考虑镜头畸变的吗[笑哭]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_calibration_assumption_challenge",
+    "topic_ids": [
+      "scale",
+      "feature_point_height"
+    ]
+  },
+  {
+    "index": 11,
+    "text": "刹车灯亮了等于全力制动？[吃瓜]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "question_about_assumption_in_comment_thread",
+    "topic_ids": [
+      "braking"
+    ]
+  },
+  {
+    "index": 12,
+    "text": "139km的话刹车灯亮到撞击按照视频里说是40m。40m全力制动只能减速40km/h?就算雨天路滑这个制动效果也太差了吧[疑惑]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "explicit_question_about_video_deceleration",
+    "topic_ids": [
+      "braking"
+    ]
+  },
+  {
+    "index": 13,
+    "text": "100到0刹车距离42.6米，你仿真80到0刹车距离45米，懂车帝收钱了？还是M9刹车怕踩断没踩到底？",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "explicit_comparison_with_simulated_stopping_distance",
+    "topic_ids": [
+      "braking"
+    ]
+  },
+  {
+    "index": 14,
+    "text": "没有112吧，是马路牙先接触到的",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "objection_to_speed_summary_in_comment_thread",
+    "topic_ids": [
+      "curb_before_pole"
+    ]
+  },
+  {
+    "index": 15,
+    "text": "你的意思是撞击路沿的作用力对车身结构没影响只减速，然后撞击杆子只影响结构不减速是吧，回去学学逻辑",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "challenge_to_energy_and_damage_explanation_in_thread",
+    "topic_ids": [
+      "curb_before_pole"
+    ]
+  },
+  {
+    "index": 16,
+    "text": "就路牙這點高度 為什麼你不是騎上去 而是撞上去吸能? [doge]",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "challenge_to_curb_energy_absorption_in_thread",
+    "topic_ids": [
+      "curb_before_pole"
+    ]
+  },
+  {
+    "index": 17,
+    "text": "这两个点高度不一样，和地面不平行，不能用来做标定吧",
+    "video": "BV1p9nC6mE12",
+    "kind": "danmaku",
+    "context": "part_specific_calibration_geometry_challenge",
+    "topic_ids": [
+      "feature_point_height"
+    ]
+  },
+  {
+    "index": 18,
+    "text": "这里有个地方不知道你们注意没，视频看起来是翻拍于显示器，这里会产生很多问题。原监控视频应该是25帧的（我国的监控视频为了避免频闪大部分默认就是25帧的），而播放视频的显示器帧率很可能不是25的倍数，帧率对不齐导致每帧的时间间隔不同，再翻拍一次帧率更乱了，根本没法通过两帧间隔的实际时间。",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_multi_stage_recording_timing_challenge",
+    "topic_ids": [
+      "timing"
+    ]
+  },
+  {
+    "index": 19,
+    "text": "来，不是数字孪生仿真吗，别只还原事故，来还原一下火怎么着的这么快的？还原一下这么快灯杆怎么一点没变，灯杆也是建模刚体？还原一下刹车的司机为啥没能跑出来？还原一下应急刹车为啥没启动？",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_rigid_body_and_scope_challenge",
+    "topic_ids": [
+      "model_limits"
+    ]
+  },
+  {
+    "index": 20,
+    "text": "卫星测距没用，要官方用尺子实际测量才准",
+    "video": "BV1P7nm6fEUH",
+    "kind": "comment",
+    "context": "new_video_measurement_skepticism",
+    "topic_ids": [
+      "independent_validation"
+    ]
+  },
+  {
+    "index": 21,
+    "text": "其实可以更进一步，实地复现车辆行驶轨迹，然后校准视频中的各帧\n之后绘制出帧数/位移曲线\n有了这个曲线，各位置瞬时速度/减速度等等都能较准确算出",
+    "video": "BV1P7nm6fEUH",
+    "kind": "comment",
+    "context": "constructive_validation_request",
+    "topic_ids": [
+      "independent_validation",
+      "feature_point_height"
+    ]
+  },
+  {
+    "index": 22,
+    "text": "A~B的距离误差有点大，行驶过程中是弧线的，你直接按直线算了。",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "direct_path_length_challenge",
+    "topic_ids": [
+      "scale"
+    ]
+  },
+  {
+    "index": 23,
+    "text": "距离误差肯定有，我看有人说这段路不是平的，有坡度，那么卫星测距也要转换",
+    "video": "BV1p9nC6mE12",
+    "kind": "comment",
+    "context": "terrain_and_map_geometry_question",
+    "topic_ids": [
+      "scale"
+    ]
+  }
+]

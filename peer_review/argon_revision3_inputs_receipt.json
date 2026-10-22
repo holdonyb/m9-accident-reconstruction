@@ -1,0 +1,22 @@
+{
+  "model": "gemini-4-argon",
+  "request_sha256": "bc2f7b875622f8ed47b899b9d55a6aac8b38bb64fd338f1d44c48a7f217c0a27",
+  "usage": {
+    "promptTokenCount": 11131,
+    "candidatesTokenCount": 4846,
+    "totalTokenCount": 15977,
+    "trafficType": "ON_DEMAND",
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 11131
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 4846
+      }
+    ]
+  }
+}

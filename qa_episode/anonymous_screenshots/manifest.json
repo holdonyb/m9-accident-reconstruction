@@ -1,0 +1,46 @@
+[
+  {
+    "file": "timing.png",
+    "crop_box": [
+      212,
+      355,
+      835,
+      445
+    ],
+    "sha256": "3ca2247b8762cb2bf984a7a63d1019fc584737e69b350bcc8b8ece0a0b12a9d7",
+    "privacy": "Only comment body; avatar, nickname, identifiers, timestamps and reply controls removed."
+  },
+  {
+    "file": "curve.png",
+    "crop_box": [
+      212,
+      355,
+      835,
+      379
+    ],
+    "sha256": "2fde73a345c186a0e9920430faa6a3e78d1924517a8bcdc28a22481fa17c3160",
+    "privacy": "Only comment body; avatar, nickname, identifiers, timestamps and reply controls removed."
+  },
+  {
+    "file": "braking.png",
+    "crop_box": [
+      212,
+      355,
+      835,
+      400
+    ],
+    "sha256": "e070246c84f49802efe8123ac5b89ec4f769ab963acbfa6abfb1395b7845cc27",
+    "privacy": "Only comment body; avatar, nickname, identifiers, timestamps and reply controls removed."
+  },
+  {
+    "file": "white.png",
+    "crop_box": [
+      212,
+      355,
+      835,
+      379
+    ],
+    "sha256": "4e516820bec162b06923b9e2c7f859cb06e0fd99902a513b41c772e0a51ce2ff",
+    "privacy": "Only comment body; avatar, nickname, identifiers, timestamps and reply controls removed."
+  }
+]

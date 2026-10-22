@@ -1,0 +1,34 @@
+[
+  {
+    "id": "timing",
+    "topic_summary": "翻拍视频的刷新节奏会影响短窗计时吗？",
+    "original_text": "这里有个地方不知道你们注意没，视频看起来是翻拍于显示器，这里会产生很多问题。原监控视频应该是25帧的（我国的监控视频为了避免频闪大部分默认就是25帧的），而播放视频的显示器帧率很可能不是25的倍数，帧率对不齐导致每帧的时间间隔不同，再翻拍一次帧率更乱了，根本没法通过两帧间隔的实际时间。",
+    "source_video": "BV1p9nC6mE12",
+    "privacy": "account information omitted",
+    "captured_date": "2026-10-22"
+  },
+  {
+    "id": "curve",
+    "topic_summary": "弧线与直线距离的差别",
+    "original_text": "A~B的距离误差有点大，行驶过程中是弧线的，你直接按直线算了。",
+    "source_video": "BV1p9nC6mE12",
+    "privacy": "account information omitted",
+    "captured_date": "2026-10-22"
+  },
+  {
+    "id": "braking",
+    "topic_summary": "为什么80刹停距离比100的测试还长？",
+    "original_text": "100到0刹车距离42.6米，你仿真80到0刹车距离45米，懂车帝收钱了？还是M9刹车怕踩断没踩到底？",
+    "source_video": "BV1p9nC6mE12",
+    "privacy": "account information omitted",
+    "captured_date": "2026-10-22"
+  },
+  {
+    "id": "white",
+    "topic_summary": "前面的白车速度是多少？",
+    "original_text": "up主，那你算算界车之前有辆白车开过，它的速度是多少？",
+    "source_video": "BV1p9nC6mE12",
+    "privacy": "account information omitted",
+    "captured_date": "2026-10-22"
+  }
+]

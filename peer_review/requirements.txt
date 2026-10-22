@@ -1,3 +1,5 @@
 numpy
 Pillow
 opencv-python-headless
+scipy
+requests

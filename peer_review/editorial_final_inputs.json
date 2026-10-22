@@ -1,0 +1,15 @@
+{
+  "review": "argon_revision3_inputs_review.json",
+  "accepted": [
+    "Input audit, time sensitivity, frame-label ambiguity, independent scale verification.",
+    "Compare complete reasoning chains, preserving conditional parameters."
+  ],
+  "corrected_or_rejected": [
+    "Do not add inaccessible Shenzhen specification as verified evidence.",
+    "Do not call the kinematic destination a physical collision.",
+    "Do not turn candidate satellite endpoints into a verified accident traverse.",
+    "Avoid expanded narration that doubles runtime; retain concise draft wording.",
+    "Anchor now346 with an explicit farther-exposure choice; bird shares that illustrative start."
+  ],
+  "script_sha256": "7de3800f7382bcce0f6480094e7855c59eb134e244f0e313d4fe91faedc8c7fb"
+}

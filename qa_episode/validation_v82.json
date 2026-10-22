@@ -1,0 +1,115 @@
+{
+  "file": "Astra答B友问_问界M9神木事故.mp4",
+  "sha256": "67e1268d4ac4c5a7e38200238b064a351c8059fbf479b0dc2b64f0915ee6e21c",
+  "bytes": 53042515,
+  "duration_s": 459.70000000000005,
+  "frames": 13791,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "chapters": 10,
+  "voice": "Vertex Charon",
+  "audio_segments": [
+    {
+      "file": "opening_00.wav",
+      "sha256": "4b8aed916deb65cc4fba6dd07a175220451b8ae24838a1f44160ce2247c86cee",
+      "text_sha256": "e231272c50d0b4dcd65cd7f1eef06e7501152b3d55e0fb6d94f2ee51a6cb065b"
+    },
+    {
+      "file": "timing_00.wav",
+      "sha256": "45de48df65d0358da89892d553e86af1fd8240a248176e28fc4b3aba298d402b",
+      "text_sha256": "27fe459d330e994086025b746b72d252c4ea0ca607d60063adb6f173b9d85ce4"
+    },
+    {
+      "file": "timing_01.wav",
+      "sha256": "264776a96896b414f20ffb3e13b14a371d53711b73cb0259a5ba3cd81168cdf0",
+      "text_sha256": "fe3ecfd3b70cb2a873acc25d8961e2ad4eb9b2f6f35b83f5f9a5fca40b60d6d7"
+    },
+    {
+      "file": "endpoints_00.wav",
+      "sha256": "69d93e561b3ce24097a23ed7ed336d8b706bd3417ff97ad0d5bc9bdc35335203",
+      "text_sha256": "6d423fd8a61af1451b01db99ca0ebf1e9511174f01bbb709b45984f97d1d5d13"
+    },
+    {
+      "file": "endpoints_01.wav",
+      "sha256": "127dd14401f36d97715a5c17815756b7825a698cce7ebde56be1af2f16b376a6",
+      "text_sha256": "caf987abf8a219ac11736629dba368ed6715ac7e973fda1d8bf43fbce84d1a5a"
+    },
+    {
+      "file": "scale_00.wav",
+      "sha256": "956b1b4baca5ba86b0404d64033c1d6041f8aa2e333b2037b314c6b3122438fd",
+      "text_sha256": "176875dcd5360891e3d72035b6a4af68d64348db3a8ded3237e647ce44151129"
+    },
+    {
+      "file": "scale_01.wav",
+      "sha256": "e3a8b92bb911bc5f12a2b12620e3d4f591c8c75e7fbc7bf3a49fd008e242d5da",
+      "text_sha256": "047a08cdeb2a8a87907bf1c52cbec0f473c6cbd9b837ef73a3f504d5407b6a45"
+    },
+    {
+      "file": "curve_00.wav",
+      "sha256": "65e32cae6843083ee568b7158a7b8b442e1b2e5d81c81d8c7ea7a7f5b803d366",
+      "text_sha256": "be53a9dfc650f451d0c7c87b0ff1327979b77d7916d5617030d030fd102a5d33"
+    },
+    {
+      "file": "curve_01.wav",
+      "sha256": "eb03c700991d4782b0bc57da1e88abc61423104fe1127dadf7d3d7a03d9b7ec1",
+      "text_sha256": "1f55b1d7c46f11fd420353ce77371b624d821354424ff3dad21730af832ad938"
+    },
+    {
+      "file": "braking_00.wav",
+      "sha256": "6788a7d54fc8f4260db8ad0cdd9359182ad45f1535cd604afddecb173d39fcf1",
+      "text_sha256": "9d464bd51b194f446574abfb40ef27a02cd8c2ae285720746f07db2e5106f512"
+    },
+    {
+      "file": "braking_01.wav",
+      "sha256": "948b4c7692cecf4d6dd457c09fe6f6e650de8f7edc68a5db8931ca1912683228",
+      "text_sha256": "236d142002b392d61661bd4df50e9a3e1996fca882509bada50d1939b1714f90"
+    },
+    {
+      "file": "braking_02.wav",
+      "sha256": "b44c9ca72215a7a945c2884bb56f7f12d2f712556475869e8447c0de2b794dac",
+      "text_sha256": "c2fae57fef26543226b40e6c3584cc93a2344f45040bf4cc38d5bca7683d4e29"
+    },
+    {
+      "file": "brakelight_00.wav",
+      "sha256": "58ba54a8539aad6b9b45aad0ba638b9293f00a3f6ad7f471de26211dc484a653",
+      "text_sha256": "0bf80f64c16957db02967a55e8eb82fa3894fe00f3e508510bb458f703b3952c"
+    },
+    {
+      "file": "brakelight_01.wav",
+      "sha256": "9f41847774a1f7cdc42701c99012b9d87fe06714baac75eabb836c4ca3394310",
+      "text_sha256": "2359d778f9d2d1b8a11b4f9c98c72298897ece3609f69202cab851fa1a11b376"
+    },
+    {
+      "file": "contact_00.wav",
+      "sha256": "860280e21d6acb9ebe663cf31c7739ba527efbb58b57fef6630f830c2b088d0e",
+      "text_sha256": "89de20195801ff2f4d6f33f4741cf0e010e479c4a1ca877a728bb893f11db115"
+    },
+    {
+      "file": "contact_01.wav",
+      "sha256": "54067a4d5d0c77e1bcb3a8aa8ae298709cf1600a141db499310b620c17e215c9",
+      "text_sha256": "913d36d391a34ba3fab3f71602930cef56984ea66e5ca304f9397324918d6586"
+    },
+    {
+      "file": "white_00.wav",
+      "sha256": "cf6a2d1594e3d7e8ce16033ddaf92c3f9e7e5a38ccd0c6f27812134c8cf6120f",
+      "text_sha256": "4b112002ef7ac354d7008a491a48cae0daabb9c67c7a465c148c69b50341095a"
+    },
+    {
+      "file": "white_01.wav",
+      "sha256": "ab205a983dfca9061acaf405f0811cd88861da8e4ccf01d1ed104a0283554a32",
+      "text_sha256": "3c9b7768dad6ae55b4fecc944f665a395dfcc36dd097c3e9cc7e55ce18b3f9db"
+    },
+    {
+      "file": "closing_00.wav",
+      "sha256": "497c71f59c0446c4a5858292a42329b83470740c9e550165251d991e8dbfc9ec",
+      "text_sha256": "268e9af27cd6f88fd69afecb0cb660c468b315eaa601d8500010e2abb4c2c241"
+    }
+  ],
+  "full_decode": "passed",
+  "timeline_and_audio_hashes": "passed",
+  "anonymous_questions": 23,
+  "scope": "Media integrity and identity checks; scientific assumptions documented separately."
+}

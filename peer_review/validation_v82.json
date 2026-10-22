@@ -1,0 +1,150 @@
+{
+  "file": "同一段监控_两种车速_算法逐项复核.mp4",
+  "sha256": "b7db497e8f589d2659d12b0b3ea5467c11885c7c23a060963029e5858a3373cc",
+  "bytes": 64502917,
+  "duration_s": 564.5333333333334,
+  "frames": 16936,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "chapters": 14,
+  "voice": "Vertex Charon",
+  "audio_segments": [
+    {
+      "file": "opening_00.wav",
+      "sha256": "96c79a19cc27d617faf23005e91fbf63c1ec6fff932629c12624b9fb485a48f7",
+      "text_sha256": "ed1ef18485e919cb5b36346e0639c1ff42e9b4c8145b13dc4c9505154bf2f1a7"
+    },
+    {
+      "file": "opening_01.wav",
+      "sha256": "f5a7715d09c42bc04166b6c2fa4554618aea330c66db53a4bd2bee8ab434601a",
+      "text_sha256": "b5a45ecd596eb3655b395f896ef87631b52da3bbe993ba40e9a23c11016ca3f9"
+    },
+    {
+      "file": "teacher_math_00.wav",
+      "sha256": "553618885e24893a1db2dacdc1d03ca2f9f618d030c2aec7b298d07b388647a6",
+      "text_sha256": "ef31b355f09710511c87bdea4afa57eec2f40f90b0d0a8c00368b823f83e31af"
+    },
+    {
+      "file": "teacher_math_01.wav",
+      "sha256": "99984590f5a755a928ed532f1bf8f16a510110cbdb369bb0e00cf5349c6d9514",
+      "text_sha256": "c906c13d435f2f201d9b528364149fe318536906beaa8a4e6e735076cc867b06"
+    },
+    {
+      "file": "teacher_math_02.wav",
+      "sha256": "d72348401cbcfea4ee490b1dd17b447c97eb5e486acc6839865063617474a6dc",
+      "text_sha256": "938f351efb46a29bb7751fe73e3ccca19a3d161998519e9b45bb13d63a26f4cc"
+    },
+    {
+      "file": "teacher_math_03.wav",
+      "sha256": "868619e26bb185e5b69e1e49bf7f881b0e3f1e3287370ba7668a787743377d5d",
+      "text_sha256": "cee765e56f58ea3dbaf070450ae1f9c122939fa5da20e0401f441cb6c43e26bc"
+    },
+    {
+      "file": "teacher_math_04.wav",
+      "sha256": "0dfe30e2083725e0693e7049bcef72e5e52dfd3e376ed8ddf3e4be56e4920c5d",
+      "text_sha256": "4c6ad2cdd047576f1b911ce09d228e42674742b599437149b932a35e61d29c08"
+    },
+    {
+      "file": "scale_00.wav",
+      "sha256": "eec2d52fc4096daef631e80217991eef539dc9ea8ada1fbaa70a8e7a0f1d176d",
+      "text_sha256": "4e08bf7c79861da59d194cc08f8965bbf048bb3921d90d80cae471417bcb600e"
+    },
+    {
+      "file": "scale_01.wav",
+      "sha256": "ec8869716a41c71363742656b5ff199a5a192dec78c389c690bff7da90ca97ee",
+      "text_sha256": "d212915c5469d459ff3bba6d70152379ba7664994f68aa2d1c7b35b4f81b6cd5"
+    },
+    {
+      "file": "marking_00.wav",
+      "sha256": "8e7a454ab59d2e3cb35197437248eba3c020ec934bcc6612879255a1e71a688a",
+      "text_sha256": "648dc754e230602ce1057d821741f90ab6eaaa6c8141ae2bcaf06d70ab4d9389"
+    },
+    {
+      "file": "author_teacher_00.wav",
+      "sha256": "9f1a3229f6f68ff03f8d8cac5c2b4d488e6faae44d261ca0a6f84e6a49e3605b",
+      "text_sha256": "15eb0c72b39e2bcf3f15099bc593642a23682e0627806e4929a47394031c6877"
+    },
+    {
+      "file": "author_teacher_01.wav",
+      "sha256": "26e54f098a3ee5e4fa13d78428064114b74d5e9fd3e0e65a49788e53856c94d4",
+      "text_sha256": "abe0b1305906c3cd5d5f5e8f724e7f12eef3de3ea9e629dfc5e2f7ffc3c5a884"
+    },
+    {
+      "file": "perspective_00.wav",
+      "sha256": "b3fedf6d4ec41d01211aa454292af69c4c10cf7154c9d4ecf51cec879309b873",
+      "text_sha256": "7cb2fa6ef554db03c943c844dc026b8f4a808db9e14eb1d5a75c89ff9623de7d"
+    },
+    {
+      "file": "views_00.wav",
+      "sha256": "2341889b158b4ca8f8a36168807fe5e915604de7dcb3619510281d41f4f7a465",
+      "text_sha256": "08d09439767dc23932c327b1f57e99313298ced16c11fa5f960ee2bc8674f9a7"
+    },
+    {
+      "file": "views_01.wav",
+      "sha256": "d26d472852a02ed13aa514c1c9a49c40bc85583bb6a1341d00d0c0ed86ab9134",
+      "text_sha256": "8bf389fdff32e26bc504037888f3780e6524c45da04ebcff0d088aee21fb163c"
+    },
+    {
+      "file": "clock_00.wav",
+      "sha256": "5c114ae1356f4cdb2de71f5d70d9818f248a5d31509dd75664bea9be8ce4be89",
+      "text_sha256": "521464d803e528bef879dc50f562ca0dde65eec5f26e22133ff99db190fe93a7"
+    },
+    {
+      "file": "clock_01.wav",
+      "sha256": "a23b1cdcf90d763e877ca5a407e95726521d94bde39f440b14f27bed82d1dbd3",
+      "text_sha256": "1b0cc641c7b10cbaf39a651463780e59c807cd42d8621f11b08d38fa03c57b87"
+    },
+    {
+      "file": "duplicates_00.wav",
+      "sha256": "ad6817d527ac16f193089313079a17c73b2ce1fe4436a04986c7dab313a81aec",
+      "text_sha256": "8f79ecb904d1206a6224640dae9f4f0a0bd8a065ebd548f1a01b309cdda711ab"
+    },
+    {
+      "file": "mean_00.wav",
+      "sha256": "1d5a7dcc7e5b8aed13ee37720661cce3d9dc10c53592846bc12bd5680fcbec73",
+      "text_sha256": "07afede31553ac199d7f97b2bd010125bdd7b87772fb9c7bc795562f03c62454"
+    },
+    {
+      "file": "bird_00.wav",
+      "sha256": "5dc0fe01db58c21520261bc647bec63ce99690210e8005952cbd25237db5c707",
+      "text_sha256": "53a50e4f5b0696bebead8267a6bf5afeffc094290b6f9c20a97619f509c62ff0"
+    },
+    {
+      "file": "bird_01.wav",
+      "sha256": "58277d7e4c50d7cbb52a73208d1cf9618456ed0c10e67744f51d28bda7990a52",
+      "text_sha256": "0b51a1d5b64d7cc8016f2b0be90649954645f03f4aee2a3b63aa5149216f5952"
+    },
+    {
+      "file": "bird_02.wav",
+      "sha256": "b1041e64504c40e3edd6a9b4739498b952492c4d1ba9edfb58baca30bf896fad",
+      "text_sha256": "31ca8b5638ffd5915685dc7b66454a03e516ced8c84b9a652d6092e595d17b50"
+    },
+    {
+      "file": "author_bird_00.wav",
+      "sha256": "a2a64514066281f13ebd723f35944cb75e17fa0598d31b70c2a67fb083f9bbe4",
+      "text_sha256": "b0403d201d4204a5d603332646b74eea4ea1a9b499488256a1ed789b7f277519"
+    },
+    {
+      "file": "pole_00.wav",
+      "sha256": "f60c46348cff13334a9a5549ad2463bba8f11affbf5932b85600ee00f83d70a6",
+      "text_sha256": "bb0a0be10c5a2b7dc36c86132f3392e769a694abbd780fa2a2d109ec47467e2f"
+    },
+    {
+      "file": "closing_00.wav",
+      "sha256": "fd6bdaa5c83ff7ce927f4af37d7afb5f94d8bd41d0b301c398bd38b8cbfe2383",
+      "text_sha256": "792556fc1d8a1711b184052de5870ac55d0e9c7c3e6dd11dfd1449f215d06094"
+    },
+    {
+      "file": "closing_01.wav",
+      "sha256": "7db6115d5cf08c6c7568206cd8bef6465e2df163a38aac46d8ec6ef25d89890d",
+      "text_sha256": "cdfd3e6e6ec04b0206624bb8f93b654da9664189165efa14b63a15d45fa342bb"
+    }
+  ],
+  "full_decode": "passed",
+  "timeline_and_audio_hashes": "passed",
+  "anonymous_questions": null,
+  "scope": "Media integrity and identity checks; scientific assumptions documented separately."
+}
