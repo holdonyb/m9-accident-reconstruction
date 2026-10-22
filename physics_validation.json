@@ -1,0 +1,101 @@
+{
+  "coast_start_kmh": 134.9739607323278,
+  "coast_end_kmh": 133.17725413393308,
+  "coast_max_step_increase_kmh": -0.039373421516586404,
+  "straight_brake_end_kmh": 107.19763166348018,
+  "solver_vs_blender_max_projection_error_px": 0.00040807084587868303,
+  "dt_halving_precontact_max_position_difference_m": 0.022949479606647394,
+  "dt_halving_contacts": {
+    "curb": {
+      "t": 1.5916666666666668,
+      "source_time": 13.058333333333334,
+      "pair": [
+        "tire_1_1",
+        "curb"
+      ],
+      "speed_kmh": 111.7654432409194,
+      "position": [
+        6.332325939101139,
+        -25.763339190400032,
+        0.3584408713992876
+      ]
+    },
+    "secondary_post": {
+      "t": 1.6341666666666668,
+      "source_time": 13.100833333333334,
+      "pair": [
+        "tire_1_1",
+        "secondary_post"
+      ],
+      "speed_kmh": 101.62570801694066,
+      "position": [
+        6.723848130171261,
+        -26.65806546819184,
+        0.5997884602526005
+      ]
+    },
+    "pole": {
+      "t": 1.6441666666666668,
+      "source_time": 13.110833333333334,
+      "pair": [
+        "pole",
+        "chassis"
+      ],
+      "speed_kmh": 99.73453038477712,
+      "position": [
+        7.889707413827055,
+        -27.31165519199054,
+        0.7923866302371056
+      ]
+    }
+  },
+  "baseline_contacts": {
+    "curb": {
+      "t": 1.5916666666666668,
+      "source_time": 13.058333333333334,
+      "pair": [
+        "tire_1_1",
+        "curb"
+      ],
+      "speed_kmh": 111.97008695263892,
+      "position": [
+        6.355972372226929,
+        -25.774097498311768,
+        0.3574716304244321
+      ]
+    },
+    "secondary_post": {
+      "t": 1.635,
+      "source_time": 13.101666666666667,
+      "pair": [
+        "tire_1_1",
+        "secondary_post"
+      ],
+      "speed_kmh": 101.80848895786981,
+      "position": [
+        6.722559974450395,
+        -26.659172924825103,
+        0.6121160329606854
+      ]
+    },
+    "pole": {
+      "t": 1.6433333333333335,
+      "source_time": 13.11,
+      "pair": [
+        "pole",
+        "chassis"
+      ],
+      "speed_kmh": 100.35906252759717,
+      "position": [
+        7.890174894452881,
+        -27.3122201496095,
+        0.7941764241626452
+      ]
+    }
+  },
+  "exact_output_clock_error_s": 4.440892098500626e-16,
+  "scenario_count": 7,
+  "all_finite": true,
+  "dt_halving_postcontact_max_position_difference_to_2_5s_m": 0.5010503184866687,
+  "dt_halving_max_position_difference_to_2_5s_m": 0.5010503184866687
+}

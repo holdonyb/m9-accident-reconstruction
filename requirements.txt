@@ -1,0 +1,5 @@
+numpy
+scipy
+mujoco==3.16.0
+Pillow
+requests

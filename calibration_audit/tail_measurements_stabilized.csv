@@ -1,0 +1,12 @@
+frame_zero_based,pts_s,tail_left_x,tail_left_y,tail_right_x,tail_right_y,tail_mid_x,tail_mid_y,tail_chord_px,tail_each_endpoint_uncertainty_px,rearface_left_x,rearface_left_y,rearface_right_x,rearface_right_y,rearface_mid_x,rearface_mid_y,rearface_chord_px,rearface_each_endpoint_uncertainty_px,notes
+344,11.466667,803,487,943,486,873.0,486.5,140.0,2.0,800,498,949,494,874.5,496.0,149.05,5,body rear-face boundary is ambiguous on left
+350,11.666667,761,394,875,392,818.0,393.0,114.02,2.0,758,405,881,401,819.5,403.0,123.07,4,main light group clean enough; ignore adjacent temporal residue
+355,11.833333,739,346,839,343,789.0,344.5,100.04,2.0,736,355,843,350,789.5,352.5,107.12,4,same lower taillight strip; upper bar is a different feature
+360,12.0,714,301,800,297,757.0,299.0,86.09,2.5,711,309,804,304,757.5,306.5,93.13,4,main lower strip; upper brake-light/roof bar must not be mixed
+365,12.166667,701,266,777,264,739.0,265.0,76.03,2.5,698,273,781,271,739.5,272.0,83.02,4,main lower strip; side silhouette excluded
+370,12.333333,689,246,758,245,723.5,245.5,69.01,2.5,686,253,762,252,724.0,252.5,76.01,4,main lower strip; visible left side excluded
+375,12.5,672,231,735,232,703.5,231.5,63.01,2.5,669,238,739,240,704.0,239.0,70.03,4,main lower strip; increasing yaw reduces projected width
+380,12.666667,655,217,711,218,683.0,217.5,56.01,3.0,652,224,714,226,683.0,225.0,62.03,5,rear-body edges weak; body width estimate low confidence
+385,12.833333,635,204,687,206,661.0,205.0,52.04,3.0,632,211,690,213,661.0,212.0,58.03,5,near-repeat of preceding source display state; body edges weak
+390,13.0,610,193,657,193,633.5,193.0,47.0,3.0,607,200,660,201,633.5,200.5,53.01,5,approach turning/yaw; luminous bloom about 2-3 px
+393,13.1,591,190,636,191,613.5,190.5,45.01,3.0,588,197,639,199,613.5,198.0,51.04,5,last conservative approach state; body edges very weak

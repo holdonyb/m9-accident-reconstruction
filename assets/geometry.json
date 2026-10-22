@@ -1,0 +1,121 @@
+{
+  "source_image": "evidence/satellite_full.png",
+  "origin_px": [
+    864.4405933323542,
+    477.58613599647526
+  ],
+  "north_line_px": [
+    [
+      754,
+      80
+    ],
+    [
+      829,
+      350
+    ]
+  ],
+  "southeast_line_px": [
+    [
+      1028,
+      552
+    ],
+    [
+      1461,
+      749
+    ]
+  ],
+  "northwest_line_px": [
+    [
+      326,
+      197
+    ],
+    [
+      633,
+      399
+    ]
+  ],
+  "meters_per_pixel_approx": 0.23809523809523808,
+  "obtuse_deg": 129.93346544835848,
+  "acute_deg": 41.18629028472263,
+  "turn_deflection_deg": 50.066534551641524,
+  "road_outline_pixels": [
+    [
+      80,
+      0
+    ],
+    [
+      279,
+      0
+    ],
+    [
+      570,
+      288
+    ],
+    [
+      702,
+      358
+    ],
+    [
+      729,
+      356
+    ],
+    [
+      733,
+      337
+    ],
+    [
+      637,
+      0
+    ],
+    [
+      792,
+      0
+    ],
+    [
+      905,
+      395
+    ],
+    [
+      932,
+      441
+    ],
+    [
+      972,
+      464
+    ],
+    [
+      1707,
+      779
+    ],
+    [
+      1707,
+      885
+    ],
+    [
+      1436,
+      776
+    ],
+    [
+      1110,
+      648
+    ],
+    [
+      782,
+      508
+    ],
+    [
+      574,
+      411
+    ],
+    [
+      80,
+      91
+    ]
+  ],
+  "projection_example": {
+    "azimuth_deg": 130,
+    "elevation_deg": 13,
+    "screen_angle_deg": 51.10064006544743
+  },
+  "limits": "Manual line selection; source imagery date unknown; no validated CCTV homography; road heights, markings and trajectory are schematic."
+}

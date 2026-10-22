@@ -1,0 +1,34 @@
+{
+  "requested_model": "gemini-4-argon",
+  "returned_model": "gemini-4-argon",
+  "provider": "Vertex AI",
+  "input_script_sha256": "af15826a154789d7289a94c65d4bf1ee0ac2956aac81646dd1e6c38c7cb4f125",
+  "request_sha256": "992f8962cf52c336c8777730435ff1a6d515a11655c596660045dbe06970bc74",
+  "usage": {
+    "promptTokenCount": 7687,
+    "candidatesTokenCount": 6328,
+    "totalTokenCount": 14015,
+    "cachedContentTokenCount": 5638,
+    "trafficType": "ON_DEMAND",
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 7687
+      }
+    ],
+    "cacheTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5638
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6328
+      }
+    ]
+  },
+  "finish_reason": "STOP",
+  "review_sha256": "b10cc04a4e09ee74f686dbd5e1893dab4a4c125691405355fb59d3cb68b702d2"
+}

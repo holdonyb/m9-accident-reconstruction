@@ -1,0 +1,182 @@
+[
+  {
+    "id": "base",
+    "label": "基准物理假设",
+    "obstacle": "curb",
+    "elapsed_s": 1.5916666666666668,
+    "source_time_s": 13.058333333333334,
+    "speed_kmh": 111.97008695263892,
+    "distance_m": null
+  },
+  {
+    "id": "base",
+    "label": "基准物理假设",
+    "obstacle": "secondary_post",
+    "elapsed_s": 1.635,
+    "source_time_s": 13.101666666666667,
+    "speed_kmh": 101.80848895786981,
+    "distance_m": null
+  },
+  {
+    "id": "base",
+    "label": "基准物理假设",
+    "obstacle": "pole",
+    "elapsed_s": 1.6433333333333335,
+    "source_time_s": 13.11,
+    "speed_kmh": 100.35906252759717,
+    "distance_m": null
+  },
+  {
+    "id": "early",
+    "label": "提前0.35秒制动",
+    "obstacle": "curb",
+    "elapsed_s": 1.7183333333333335,
+    "source_time_s": 13.185,
+    "speed_kmh": 98.63566517243744,
+    "distance_m": null
+  },
+  {
+    "id": "early",
+    "label": "提前0.35秒制动",
+    "obstacle": "pole",
+    "elapsed_s": 1.77,
+    "source_time_s": 13.236666666666666,
+    "speed_kmh": 88.57936810621655,
+    "distance_m": null
+  },
+  {
+    "id": "late",
+    "label": "晚0.35秒制动",
+    "obstacle": "curb",
+    "elapsed_s": 1.5533333333333335,
+    "source_time_s": 13.02,
+    "speed_kmh": 120.02718257150475,
+    "distance_m": null
+  },
+  {
+    "id": "late",
+    "label": "晚0.35秒制动",
+    "obstacle": "pole",
+    "elapsed_s": 1.5733333333333335,
+    "source_time_s": 13.040000000000001,
+    "speed_kmh": 109.16444519312765,
+    "distance_m": null
+  },
+  {
+    "id": "wet",
+    "label": "较低附着 μ=0.55",
+    "obstacle": "curb",
+    "elapsed_s": 1.5033333333333334,
+    "source_time_s": 12.97,
+    "speed_kmh": 116.721341878133,
+    "distance_m": null
+  },
+  {
+    "id": "wet",
+    "label": "较低附着 μ=0.55",
+    "obstacle": "secondary_post",
+    "elapsed_s": 1.59,
+    "source_time_s": 13.056666666666667,
+    "speed_kmh": 111.4705273136919,
+    "distance_m": null
+  },
+  {
+    "id": "wet",
+    "label": "较低附着 μ=0.55",
+    "obstacle": "sidewalk",
+    "elapsed_s": 1.6266666666666667,
+    "source_time_s": 13.093333333333334,
+    "speed_kmh": 37.994336562892606,
+    "distance_m": null
+  },
+  {
+    "id": "soft",
+    "label": "较弱制动力",
+    "obstacle": "curb",
+    "elapsed_s": 1.58,
+    "source_time_s": 13.046666666666667,
+    "speed_kmh": 117.32578223722507,
+    "distance_m": null
+  },
+  {
+    "id": "soft",
+    "label": "较弱制动力",
+    "obstacle": "pole",
+    "elapsed_s": 1.6033333333333335,
+    "source_time_s": 13.07,
+    "speed_kmh": 107.24467444071853,
+    "distance_m": null
+  },
+  {
+    "id": "lowcurb",
+    "label": "路缘高10厘米",
+    "obstacle": "curb",
+    "elapsed_s": 1.5933333333333335,
+    "source_time_s": 13.06,
+    "speed_kmh": 111.9697216673601,
+    "distance_m": null
+  },
+  {
+    "id": "lowcurb",
+    "label": "路缘高10厘米",
+    "obstacle": "pole",
+    "elapsed_s": 1.6416666666666668,
+    "source_time_s": 13.108333333333334,
+    "speed_kmh": 106.80250578426119,
+    "distance_m": null
+  },
+  {
+    "id": "lowcurb",
+    "label": "路缘高10厘米",
+    "obstacle": "secondary_post",
+    "elapsed_s": 1.6416666666666668,
+    "source_time_s": 13.108333333333334,
+    "speed_kmh": 106.80250578426119,
+    "distance_m": null
+  },
+  {
+    "id": "highcurb",
+    "label": "路缘高22厘米",
+    "obstacle": "curb",
+    "elapsed_s": 1.5750000000000002,
+    "source_time_s": 13.041666666666668,
+    "speed_kmh": 112.27747873740505,
+    "distance_m": null
+  },
+  {
+    "id": "impact40",
+    "label": "主柱接触约40 km/h",
+    "obstacle": "curb",
+    "elapsed_s": 0.15166666666666667,
+    "source_time_s": 13.151666666666667,
+    "speed_kmh": 45.410523303656994,
+    "distance_m": 1.9286412626975604
+  },
+  {
+    "id": "impact40",
+    "label": "主柱接触约40 km/h",
+    "obstacle": "pole",
+    "elapsed_s": 0.27166666666666667,
+    "source_time_s": 13.271666666666667,
+    "speed_kmh": 40.00102962248588,
+    "distance_m": 3.2696317434843367
+  },
+  {
+    "id": "impact50",
+    "label": "主柱接触约50 km/h",
+    "obstacle": "curb",
+    "elapsed_s": 0.12000000000000001,
+    "source_time_s": 13.12,
+    "speed_kmh": 56.11979375538846,
+    "distance_m": 1.8827436519047864
+  },
+  {
+    "id": "impact50",
+    "label": "主柱接触约50 km/h",
+    "obstacle": "pole",
+    "elapsed_s": 0.22,
+    "source_time_s": 13.22,
+    "speed_kmh": 50.000076335355665,
+    "distance_m": 3.280817404356272
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "title": "啄泥王：公开区间测速计算",
+    "url": "https://www.sina.cn/news/detail/5356585783920369.html",
+    "use": "Comparison of the published 5–7 m / 0.566 s interval calculation; endpoint correspondence and contact phase are evaluated separately."
+  },
+  {
+    "title": "Gemfield：逐帧分析回答",
+    "url": "https://www.zhihu.com/question/2096270477064757529/answer/2096327711820194275",
+    "use": "Primary answer viewed in Chrome; 62 m / 1.8 s and final 10 m / 16 frame interval."
+  },
+  {
+    "title": "虎扑：路宽与角度估速讨论",
+    "url": "https://bbs.hupu.com/643126944.html",
+    "use": "Examples of assumed road width, crossing angle and elapsed-time calculations."
+  },
+  {
+    "title": "新京报转引问界用户服务2026-10-21事故说明",
+    "url": "https://www.bjnews.com.cn/detail/1792568897129123.html",
+    "use": "Attributed manufacturer statements: junction speed139.1km/h, manual driving, preliminary front compartment fire explanation. Not treated as final accident finding."
+  },
+  {
+    "title": "鸿蒙智行 M9 配置页",
+    "url": "https://hima.auto/wenjie/m9/configuration/",
+    "use": "Model dimensions use the 2025 M9 size class, 5230 × 1999 × 1800 mm and 3110 mm wheelbase; vehicle year and actual load remain unknown."
+  },
+  {
+    "title": "百度地图卫星图",
+    "url": "https://map.baidu.com/@12298961.423627814,4678375.640312615,19.71z/maptype%3DB_EARTH_MAP",
+    "use": "Saved screenshot dated 2026-10-21 retrieval; imagery acquisition date unknown."
+  },
+  {
+    "title": "MuJoCo modeling",
+    "url": "https://mujoco.readthedocs.io/en/stable/modeling.html"
+  },
+  {
+    "title": "MuJoCo computation",
+    "url": "https://mujoco.readthedocs.io/en/stable/computation/index.html"
+  }
+]

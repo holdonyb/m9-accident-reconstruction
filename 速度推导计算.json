@@ -1,0 +1,84 @@
+{
+  "calibration_provenance": {
+    "roof_length_assumed_m": 2.7,
+    "horizon_assumed_px": 0.0,
+    "roof_to_tail_longitudinal_offset_assumed_m": 0.3,
+    "tail_width_assumed_m": 1.88,
+    "roof_points": [
+      [
+        344.0,
+        411.0,
+        442.0
+      ],
+      [
+        350.0,
+        340.0,
+        361.0
+      ],
+      [
+        355.0,
+        303.0,
+        319.0
+      ]
+    ],
+    "Kroof": 15886.889860979933,
+    "Ktail_per_sample": [
+      17340.411803997144,
+      17177.246025942142,
+      17053.495006606856
+    ],
+    "Ktail": 17190.384278848713,
+    "A": 6.529445928679289,
+    "F": 2632.7477808405424,
+    "all_metric_inputs_are_conditional": true
+  },
+  "worked_examples": [
+    {
+      "kind": "conditional_image_depth_difference",
+      "start_frame": 352,
+      "end_frame": 357,
+      "y_start": 369.0,
+      "y_end": 327.0,
+      "z_start": 46.58640725975261,
+      "z_end": 52.5699825041245,
+      "distance": 5.983575244371892,
+      "seconds": 0.16666666666666666,
+      "kmh": 129.24522527843286
+    },
+    {
+      "kind": "conditional_image_depth_difference",
+      "start_frame": 357,
+      "end_frame": 362,
+      "y_start": 327.0,
+      "y_end": 291.0,
+      "z_start": 52.5699825041245,
+      "z_end": 59.073485494325475,
+      "distance": 6.503502990200971,
+      "seconds": 0.16666666666666666,
+      "kmh": 140.47566458834098
+    },
+    {
+      "kind": "fitted_solver_path_length",
+      "start_frame": 357,
+      "end_frame": 362,
+      "distance": 6.201069774990707,
+      "seconds": 0.16666666666666666,
+      "kmh": 133.94310713979928
+    },
+    {
+      "kind": "fitted_solver_path_length",
+      "start_frame": 344,
+      "end_frame": 393,
+      "distance": 56.97817922581048,
+      "seconds": 1.6333333333333333,
+      "kmh": 125.5845582936231
+    }
+  ],
+  "pixel_error_example": {
+    "y": 327,
+    "depth": 52.5699825041245,
+    "depth_at_y_minus2": 52.89349008876527,
+    "depth_at_y_plus2": 52.250408142397305
+  },
+  "validation": "All displayed rounded numbers recomputed from the packaged inputs; does not validate the empirical calibration."
+}

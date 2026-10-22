@@ -1,0 +1,135 @@
+[
+  {
+    "id": "cctv",
+    "scene": "01_基准_真实照片与物理仿真",
+    "camera": "CAM_原视频方向",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "follow",
+    "scene": "01_基准_真实照片与物理仿真",
+    "camera": "CAM_后侧跟拍",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "side",
+    "scene": "01_基准_真实照片与物理仿真",
+    "camera": "CAM_路边固定",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "top",
+    "scene": "01_基准_真实照片与物理仿真",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "curb",
+    "scene": "01_基准_真实照片与物理仿真",
+    "camera": "CAM_路缘与立柱近景",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "early",
+    "scene": "假设_提前0.35秒制动",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "late",
+    "scene": "假设_晚0.35秒制动",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "wet",
+    "scene": "假设_较低附着 μ=0.55",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "soft",
+    "scene": "假设_较弱制动力",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "lowcurb",
+    "scene": "假设_路缘高10厘米",
+    "camera": "CAM_路缘与立柱近景",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "highcurb",
+    "scene": "假设_路缘高22厘米",
+    "camera": "CAM_路缘与立柱近景",
+    "start": 1,
+    "end": 91
+  },
+  {
+    "id": "angle",
+    "scene": "地图_原始卫星图与透视",
+    "camera": "CAM_卫星到低视角",
+    "start": 1,
+    "end": 151
+  },
+  {
+    "id": "orbit",
+    "scene": "冻结_接触前360度",
+    "camera": "CAM_冻结360度",
+    "start": 1,
+    "end": 121
+  },
+  {
+    "id": "initial60",
+    "scene": "速度试验_初速60 km/h",
+    "camera": "CAM_原视频方向",
+    "start": 1,
+    "end": 50
+  },
+  {
+    "id": "initial60_top",
+    "scene": "速度试验_初速60 km/h",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 181
+  },
+  {
+    "id": "initial80",
+    "scene": "速度试验_初速80 km/h",
+    "camera": "CAM_原视频方向",
+    "start": 1,
+    "end": 50
+  },
+  {
+    "id": "initial80_top",
+    "scene": "速度试验_初速80 km/h",
+    "camera": "CAM_俯视全程",
+    "start": 1,
+    "end": 181
+  },
+  {
+    "id": "impact40",
+    "scene": "速度试验_主柱接触约40 km/h",
+    "camera": "CAM_路缘与立柱近景",
+    "start": 47,
+    "end": 122
+  },
+  {
+    "id": "impact50",
+    "scene": "速度试验_主柱接触约50 km/h",
+    "camera": "CAM_路缘与立柱近景",
+    "start": 47,
+    "end": 122
+  }
+]

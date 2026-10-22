@@ -1,0 +1,95 @@
+{
+  "argon_receipt": "argon_review_receipt.json",
+  "applied_script_sha256": "60dd08d9b0b5f39a8ad5b643f1e4c4c7fd4fb91e3fccc8bcb7c3b945a0456a9b",
+  "post_review_fact_checks": [
+    "No inference of pedal timing from brake lamp alone",
+    "Rigid cylindrical tires, no elastic tire model",
+    "Remove ungrounded fire mechanism details introduced in review",
+    "Raw five-frame differences are depth speeds",
+    "Stop threshold remains sustained <0.5 km/h",
+    "Model comparison is conditional on scale and control inputs"
+  ],
+  "modified_lines_after_review": [
+    {
+      "id": "map",
+      "line": 1
+    },
+    {
+      "id": "environment",
+      "line": 0
+    },
+    {
+      "id": "lamp",
+      "line": 0
+    },
+    {
+      "id": "lamp",
+      "line": 1
+    },
+    {
+      "id": "speed_points",
+      "line": 2
+    },
+    {
+      "id": "speed_noise",
+      "line": 1
+    },
+    {
+      "id": "speed_80",
+      "line": 1
+    },
+    {
+      "id": "speed_80",
+      "line": 2
+    },
+    {
+      "id": "claims",
+      "line": 2
+    },
+    {
+      "id": "speed_fit",
+      "line": 0
+    },
+    {
+      "id": "braking",
+      "line": 0
+    },
+    {
+      "id": "low_initial",
+      "line": 0
+    },
+    {
+      "id": "low_initial",
+      "line": 1
+    },
+    {
+      "id": "low_initial",
+      "line": 2
+    },
+    {
+      "id": "low_impact",
+      "line": 0
+    },
+    {
+      "id": "low_impact",
+      "line": 1
+    },
+    {
+      "id": "low_impact",
+      "line": 2
+    },
+    {
+      "id": "event",
+      "line": 2
+    },
+    {
+      "id": "closing",
+      "line": 0
+    },
+    {
+      "id": "credits",
+      "line": 0
+    }
+  ],
+  "transition_review": "argon_transitions_receipt.json"
+}

@@ -1,0 +1,37 @@
+{
+  "projection": {
+    "K": 17190.384278848713,
+    "A": 6.529445928679289,
+    "F": 2632.7477808405424,
+    "horizon_y": 0.0,
+    "cx": 640,
+    "world_offset": [
+      -20.681827894250407,
+      66.80441320111468
+    ],
+    "forward": [
+      0.2667266309194038,
+      -0.9637722263887791
+    ],
+    "right": [
+      -0.9637722263887791,
+      -0.2667266309194038
+    ]
+  },
+  "initial_pose": {
+    "source_frame": 344,
+    "center": [
+      -13.305531632351604,
+      28.635881169311766,
+      0.2
+    ],
+    "heading": -2.809505990388012
+  },
+  "pole_position": [
+    8.065128074348426,
+    -27.48554180050147,
+    0.2
+  ],
+  "status": "Conditional camera calibration and map alignment, not independently surveyed. Initial pose and obstacle location are input assumptions, not solver outputs.",
+  "scale_note": "Old 2.70 m roof feature is ambiguous; ±6 pixels gives a large scale variation. These parameters support comparative hypotheses, not a unique speed finding."
+}
