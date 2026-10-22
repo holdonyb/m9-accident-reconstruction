@@ -4,7 +4,7 @@
 
 ## 下载与观看
 
-- 新增独立视频《问界M9到底多快？74还是135：逐帧复核4条视频》：方法、原作者时间位置、逐项复算与复现提示词见 [peer_review](peer_review/README.md)。
+- [新增独立视频《问界M9到底多快？74还是135：逐帧复核4条视频》](https://www.bilibili.com/video/BV1P7nm6fEUH/)：06:10，方法、原作者时间位置、逐项复算与复现提示词见 [peer_review](peer_review/README.md)。
 - [原片新增 P2：十一组仿真对比](https://www.bilibili.com/video/BV1p9nC6mE12/?p=2)，04:28。
 - [v8.1.0 补充工程与新影片](https://github.com/holdonyb/m9-accident-reconstruction/releases/tag/v8.1.0)：补充包解压到 v8.0.0 工程根目录，含三种末速 Blender 控制实验、19段男声、原帧时钟证据与全部合成代码。
 - [B站完整影片](https://www.bilibili.com/video/BV1p9nC6mE12/)：已发布，五段播放器章节，复现提示词已置顶。

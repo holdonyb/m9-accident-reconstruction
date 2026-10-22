@@ -1,5 +1,7 @@
 # 四条视频的方法复核
 
+新片：https://www.bilibili.com/video/BV1P7nm6fEUH/ （370.1秒，1080p30）
+
 原仿真独立 P2：https://www.bilibili.com/video/BV1p9nC6mE12/?p=2
 
 新片内容：原片校时与重复画面、两套标尺的距离分歧、同时间同距离而末速不同的三维控制实验、按原作者参数复算及双机位观感比较。结论与原视频时间位置见《分析结论与证据.md》。
