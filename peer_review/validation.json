@@ -1,0 +1,132 @@
+{
+  "file": "同一段监控_两种车速_算法逐项复核.mp4",
+  "sha256": "95f72504fb9c5edc9ebe19b146355973744ab5052f2a64531c56d766b1cbacf3",
+  "bytes": 19990294,
+  "duration_s": 370.1,
+  "video_duration_s": 370.1,
+  "frames": 11103,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "chapters": 10,
+  "audio_segments": [
+    {
+      "file": "audio/opening_00.wav",
+      "sha256": "e0ea73a43041b73a7469d2ebc8942a95c7926c44675ad86b669e711ade69d08f",
+      "seconds": 13.96,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/clock_00.wav",
+      "sha256": "57e058ede12d55eb9aa709de9b6d0fc51b822b73651442f485ec4eb8c19851c9",
+      "seconds": 21.4,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/clock_01.wav",
+      "sha256": "e9dedc8db873d04b489c06cf3bc21c1da16b413fcdd5e8beb9e731f45d14eda1",
+      "seconds": 15.16,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/duplicates_00.wav",
+      "sha256": "6078e9a1c8b41ac0551962096b969bedb170d70455d93a72246eda862a3175a4",
+      "seconds": 18.2,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/duplicates_01.wav",
+      "sha256": "574b3a0a38823eab3cca6098cd00cb3343764eaf7e2b0b3fa517f5edf39b202f",
+      "seconds": 22.52,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/teacher_math_00.wav",
+      "sha256": "1cc29479ab8a0051d1b5b86584b8a60e402630715bb9914cf40d7f7f8c25a314",
+      "seconds": 17.88,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/teacher_math_01.wav",
+      "sha256": "d67c4845caada990fd36e4cba1bcb6a054cd51bfcbacb6e9a8196525e4be7a59",
+      "seconds": 21.08,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/scale_00.wav",
+      "sha256": "97b4355558a60654e0cfedfca6035c1d26e1555609ba8265f81a82b9f8694772",
+      "seconds": 22.4,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/scale_01.wav",
+      "sha256": "502c52e5cbe3be56d984538bebb93e30ae8db9e5f73dbc092190a706514affff",
+      "seconds": 14.72,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/mean_00.wav",
+      "sha256": "773303af67215bd3203145f32a89daf0cf4dce0ee39896d2a08fcc47b795077c",
+      "seconds": 16.52,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/mean_01.wav",
+      "sha256": "0e8b8f03ce77505452130110251e514b1bd9042be0f5e5c2e23559beeff2a79e",
+      "seconds": 26.6,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/bird_00.wav",
+      "sha256": "9dfc1051708798fb31271ca8497b289f99d120980d72309d582d59b276a4df30",
+      "seconds": 15.88,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/bird_01.wav",
+      "sha256": "af79beff537953931393af492a0074436605a07615e0021d3ead3eb91789c343",
+      "seconds": 25.32,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/bird_02.wav",
+      "sha256": "7a95a9217381c238450141666dba1966586e62ffd5610b496d1ded9b81ee8434",
+      "seconds": 16.72,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/views_00.wav",
+      "sha256": "a7e4949e6103870d608ef41232c7646f91d615aea03f9e8f968be8226ad792df",
+      "seconds": 17.48,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/views_01.wav",
+      "sha256": "090e3655db1e52ae74bb5b4e0e408f0e69b3eb472c428de22cc42d2f22c3dbc5",
+      "seconds": 14.16,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/pole_00.wav",
+      "sha256": "e99cd7bf9c8c4d0efe5a3482f29a228e625ab7b4106150579cab75385e5db6d2",
+      "seconds": 22.56,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/closing_00.wav",
+      "sha256": "7624a003e4059dfd542008b54ec46c64d4b134e755f07eb9f5ea15228aed1a7d",
+      "seconds": 17.6,
+      "voice": "Charon"
+    },
+    {
+      "file": "audio/closing_01.wav",
+      "sha256": "4a7523977d38a6b3d003072c3b6051ddc8668c07ce916c3d9cf277ef3aabea72",
+      "seconds": 9.8,
+      "voice": "Charon"
+    }
+  ],
+  "full_decode": "passed",
+  "timeline_matches": true,
+  "kinematic_equations": "passed",
+  "scope": "Media integrity, text/audio identity and analytic kinematic equations. Does not independently establish accident speed."
+}

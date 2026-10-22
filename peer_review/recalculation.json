@@ -1,0 +1,175 @@
+{
+  "teacher_segments": [
+    {
+      "frames": 8,
+      "m": 5.5,
+      "seconds": 0.26666666666666666,
+      "kmh": 74.25
+    },
+    {
+      "frames": 27,
+      "m": 14.7,
+      "seconds": 0.9,
+      "kmh": 58.8
+    },
+    {
+      "frames": 23,
+      "m": 6.5,
+      "seconds": 0.7666666666666667,
+      "kmh": 30.52173913043478
+    }
+  ],
+  "teacher_whole": {
+    "distance_m": 26.7,
+    "seconds": 1.9333333333333333,
+    "mean_kmh": 49.717241379310344
+  },
+  "teacher_after_stopline": {
+    "distance_m": 21.2,
+    "seconds": 1.6666666666666667,
+    "mean_kmh": 45.791999999999994
+  },
+  "bird_inputs": {
+    "time_s": 1.4932885906040267,
+    "brake_on_s": 0.25167785234899326,
+    "distance_m": [
+      49.7,
+      54.7
+    ]
+  },
+  "bird_parameter_grid": [
+    {
+      "distance_m": 49.7,
+      "a_g": 0.5,
+      "start_kmh": 128.9307124651233,
+      "impact_kmh": 107.00635004901592,
+      "mean_kmh": 119.81608988764046
+    },
+    {
+      "distance_m": 49.7,
+      "a_g": 0.65,
+      "start_kmh": 131.66509923836816,
+      "impact_kmh": 103.16342809742856,
+      "mean_kmh": 119.81608988764046
+    },
+    {
+      "distance_m": 49.7,
+      "a_g": 0.8,
+      "start_kmh": 134.39948601161302,
+      "impact_kmh": 99.32050614584122,
+      "mean_kmh": 119.81608988764046
+    },
+    {
+      "distance_m": 52.2,
+      "a_g": 0.5,
+      "start_kmh": 134.95767875725815,
+      "impact_kmh": 113.03331634115077,
+      "mean_kmh": 125.8430561797753
+    },
+    {
+      "distance_m": 52.2,
+      "a_g": 0.65,
+      "start_kmh": 137.692065530503,
+      "impact_kmh": 109.1903943895634,
+      "mean_kmh": 125.8430561797753
+    },
+    {
+      "distance_m": 52.2,
+      "a_g": 0.8,
+      "start_kmh": 140.42645230374785,
+      "impact_kmh": 105.34747243797604,
+      "mean_kmh": 125.8430561797753
+    },
+    {
+      "distance_m": 54.7,
+      "a_g": 0.5,
+      "start_kmh": 140.98464504939295,
+      "impact_kmh": 119.06028263328558,
+      "mean_kmh": 131.87002247191012
+    },
+    {
+      "distance_m": 54.7,
+      "a_g": 0.65,
+      "start_kmh": 143.71903182263785,
+      "impact_kmh": 115.21736068169824,
+      "mean_kmh": 131.87002247191012
+    },
+    {
+      "distance_m": 54.7,
+      "a_g": 0.8,
+      "start_kmh": 146.45341859588268,
+      "impact_kmh": 111.37443873011087,
+      "mean_kmh": 131.87002247191012
+    }
+  ],
+  "low_impact_conditional_tests": [
+    {
+      "target_impact_kmh": 20,
+      "required_constant_deceleration_g": 4.131350734408838,
+      "initial_kmh": 201.15446153846153,
+      "assumptions": "52.2m; first 0.2517s constant speed, then constant braking; no obstacle impulse before endpoint"
+    },
+    {
+      "target_impact_kmh": 40,
+      "required_constant_deceleration_g": 3.3506947549761,
+      "initial_kmh": 186.92369230769228,
+      "assumptions": "52.2m; first 0.2517s constant speed, then constant braking; no obstacle impulse before endpoint"
+    },
+    {
+      "target_impact_kmh": 50,
+      "required_constant_deceleration_g": 2.9603667652597316,
+      "initial_kmh": 179.8083076923077,
+      "assumptions": "52.2m; first 0.2517s constant speed, then constant braking; no obstacle impulse before endpoint"
+    },
+    {
+      "target_impact_kmh": 60,
+      "required_constant_deceleration_g": 2.5700387755433627,
+      "initial_kmh": 172.69292307692308,
+      "assumptions": "52.2m; first 0.2517s constant speed, then constant braking; no obstacle impulse before endpoint"
+    }
+  ],
+  "independent_clock_reading": {
+    "source": "assets/source.mp4",
+    "clock_seconds": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "first_readable_frames": [
+      308,
+      339,
+      368,
+      398
+    ],
+    "frame_intervals": [
+      31,
+      29,
+      30
+    ],
+    "three_second_average_fps": 30,
+    "note": "Zero-based file frames. Read visually from full-resolution clock crops. 3s agreement establishes average playback rate, not CCTV capture fps or every local update time."
+  },
+  "white_car_clock_reading": {
+    "source": "assets/source.mp4",
+    "clock_seconds": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "first_readable_frames": [
+      68,
+      107,
+      128,
+      157
+    ],
+    "frame_intervals": [
+      39,
+      21,
+      29
+    ],
+    "three_second_average_file_frames_per_clock_second": 29.666666666666668,
+    "note": "Zero-based sequentially decoded frames, confirmed with FFmpeg select=n and PTS. Local update timing is uneven. Frame 67 has mixed old/new clock digits; 68 is the first clear 05. This is timing evidence, not a white-car speed measurement."
+  }
+}

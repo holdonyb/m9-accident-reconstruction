@@ -1,0 +1,32 @@
+{
+  "file": "同时间同距离_三种末速_方法演示.blend",
+  "sha256": "79771563c780f691860d13d6a45363d9599ec40bf8f3655a1dded26954814275",
+  "scenes_checked": [
+    {
+      "scene": "方法演示_同距离同时间_减速度0",
+      "distance_m": 6.499999624784452,
+      "frame_start": 1,
+      "frame_end": 31,
+      "objects": 107,
+      "camera": "方法演示相机0"
+    },
+    {
+      "scene": "方法演示_同距离同时间_减速度4",
+      "distance_m": 6.499999624784452,
+      "frame_start": 1,
+      "frame_end": 31,
+      "objects": 107,
+      "camera": "方法演示相机4"
+    },
+    {
+      "scene": "方法演示_同距离同时间_减速度8",
+      "distance_m": 6.499999624784452,
+      "frame_start": 1,
+      "frame_end": 31,
+      "objects": 107,
+      "camera": "方法演示相机8"
+    }
+  ],
+  "unpacked_image_references": [],
+  "reopen": "passed"
+}
